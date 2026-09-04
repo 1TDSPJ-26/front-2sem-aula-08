@@ -2,7 +2,7 @@
 export default function Produtos() {
   return (
     <header>
-        <h1>Cabecalho</h1>
+        <h2>Produtos</h2>
     </header>
   )
 }

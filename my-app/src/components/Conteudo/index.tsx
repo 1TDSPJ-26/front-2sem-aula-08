@@ -1,6 +1,12 @@
 
 
 export default function Conteudo() {
+
+  let nomeComum:string | null = "flavio";
+  function alterNomeComum() {
+    nomeComum = prompt("digite o novo nome!");
+  }
+
   return (
     <main>
         <h2>Conteudo Principal</h2>

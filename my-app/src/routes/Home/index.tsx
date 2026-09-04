@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <header>
-        <h1>Cabecalho</h1>
+        <h2>Home</h2>
     </header>
   )
 }
