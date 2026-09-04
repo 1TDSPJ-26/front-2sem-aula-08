@@ -1,6 +1,7 @@
 import { Outlet } from "react-router"
-import Rodape from "./components/rodape"
-import Menu from "./components/menu"
+import Rodape from "./components/Rodape"
+import Menu from "./components/Menu"
+
 
 
 export default function App() {

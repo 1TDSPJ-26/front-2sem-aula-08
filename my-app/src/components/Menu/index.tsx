@@ -13,6 +13,8 @@ export default function Menu() {
                 <div className="flex gap-4 font-semibold text-slate-300">
                     <Link className="hover:text-white" to="/">Home</Link>
                     <Link className="hover:text-white" to="/produtos">Produtos</Link>
+                    <Link className="hover:text-white" to="/conteudo">Conteudo</Link>
+                    <Link className="hover:text-white" to="/lampada">Lampada</Link>
                 </div>
             </nav>
         </header>

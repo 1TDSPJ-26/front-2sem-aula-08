@@ -7,6 +7,8 @@ import Home from './routes/Home/index.tsx'
 import Produtos from './routes/Produtos/index.tsx'
 import EditarProduto from './routes/EditarProduto/index.tsx'
 import Error from './routes/Error/index.tsx'
+import Conteudo from './components/Conteudo/index.tsx'
+import Lampada from './components/Lampada/index.tsx'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: '/produtos/:id',
         element: <EditarProduto/>
+      },
+      {
+        path: '/conteudo',
+        element: <Conteudo/>
+      },
+      {
+        path: '/lampada',
+        element: <Lampada/>
       }
     ]
   }
