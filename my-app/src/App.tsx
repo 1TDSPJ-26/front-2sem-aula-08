@@ -1,6 +1,7 @@
+
 import Cabecalho from './components/Cabecalho'
-import Conteudo from './components/Conteudo'
 import Rodape from './components/Rodape'
+import Conteudo from './components/Conteudo'
 
 export default function App() {
   return (
