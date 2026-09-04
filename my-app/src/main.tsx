@@ -4,7 +4,9 @@ import { createBrowserRouter } from 'react-router'
 import { RouterProvider } from 'react-router/dom'
 import App from './App.tsx'
 import EditarProduto from './routes/EditarProduto/index.tsx'
+import ProdutoDetalhe from './routes/ProdutoDetalhe/index.tsx'
 import Produtos from './routes/Produtos/index.tsx'
+import Lampada from './routes/Lampada/index.tsx'
 import Home from './routes/Home/index.tsx'
 import Error from './routes/Error/index.tsx'
 
@@ -23,8 +25,16 @@ const router = createBrowserRouter([
         element: <Produtos />
       },
       {
-        path: '/produtos/:id',
+        path: '/produto/:id',
+        element: <ProdutoDetalhe />
+      },
+      {
+        path: '/produto/:id/editar',
         element: <EditarProduto />
+      },
+      {
+        path: '/lampada',
+        element: <Lampada />
       }
     ],
   },
