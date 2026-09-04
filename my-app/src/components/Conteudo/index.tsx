@@ -1,6 +1,11 @@
 
 
 export default function Conteudo() {
+
+  let nomecomum: String null = "Alegod";
+  function alteranomecomum(){
+    nomecomum = prompt("Digite o novo nome!");
+  }
   return (
     <main>
         <h2>Conteudo Principal</h2>
